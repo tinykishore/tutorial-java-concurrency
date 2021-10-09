@@ -1,4 +1,4 @@
-### Introduction to Thread and Multithreading Programming
+# Introduction to Thread and Multithreading Programming
 
 In computer science, a thread of execution is the smallest sequence of programmed instructions that can be managed independently by a scheduler, which is typically a part of the operating system. A thread is a component of a process.
 
