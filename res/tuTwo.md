@@ -24,7 +24,7 @@ There are priorities in threads. Each thread has its own priority which is denot
 
 - **Default priority is defined as `NORM_PRIORITY` in Thread class which has value 5.**
 
-- **Highest priority is defined as `MAX_PRIORITY`in Thread class which has value 10.**
+- **Highest priority is defined as `MAX_PRIORITY` in Thread class which has value 10.**
 
 Thread Class has 3 **`public static`** instance variables -
 
