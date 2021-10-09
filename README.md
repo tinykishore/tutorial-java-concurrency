@@ -5,4 +5,4 @@ This tutorial cover all the basic and intermediate topics of concurrency with Ja
 ### Context
 
 * [Introduction to Thread and Multithreading Programming](res/tuOne.md)
-* [Fields and methods of Thread class](res/tuTwo.md)
+* [Static fields and methods of Thread class](res/tuTwo.md)
