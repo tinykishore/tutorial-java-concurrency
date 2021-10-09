@@ -1,4 +1,4 @@
-# Fields and methods of Thread class
+# Static fields and methods of Thread class
 
 Thread class implements the `Runnable` class which has a `run()` method.
 
