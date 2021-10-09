@@ -30,7 +30,7 @@ class Main{
 
 Here, execution starts from the `main(String[] args)` function, prints “Hello World” and terminates. This can be represented like this - 
 
-![L1Fig1](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig1.png)
+![L1Fig1](img/L1Fig1.png)
 
 If there were a function in this `main(String[] args)` method - 
 
@@ -49,7 +49,7 @@ class Main{
 
 This can be represented like this - 
 
-![L1Fig2](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig2.png)
+![L1Fig2](img/L1Fig2.png)
 
 Again, If we take a recursive function - 
 
@@ -69,11 +69,11 @@ class Main{
 
 This can be represented like this - 
 
-![L1Fig3](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig3.png)
+![L1Fig3](img/L1Fig3.png)
 
 These are all single threaded programs. They all have one starting point and one ending point. In fact, every program has one starting point. A program cannot have more than one single starting point. But, when a program ends in 2 different points, that is a multithreaded program. For example -
 
-![L1Fig4](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig4.png)
+![L1Fig4](img/L1Fig4.png)
 
 We know that we cannot have more than one `main(String[] args)` method in a program. So, how can we create another thread?
 
@@ -122,7 +122,7 @@ class Main{
 
 We have 2 threads here (actually three if we count the main thread). First of all, execution of the main thread will begin, then the main thread will start `threadOne`. After that, the main thread will print “Hello World” and then start `threadTwo`. Diagram -
 
-![L1Fig5](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig5.png)
+![L1Fig5](img/L1Fig5.png)
 
 We can add as many threads as we want. Now, the question is, what is the benefit of making threads? Threads will save a huge amount of time in applications because of working different things simultaneously. Suppose we build an app that **takes some user input** and **downloads a random picture** from the internet. So, the app has 2 different tasks to complete. No task is dependent on the other one. If we don’t use thread -
 
@@ -227,7 +227,7 @@ class Main {
 
 Diagram for above code -
 
-![L1Fig6](C:\Users\tinyk\OneDrive\Desktop\tutorial-java-concurrency\img\L1Fig6.png)
+![L1Fig6](img/L1Fig6.png)
 
 Both for loops will run parallelly. So here the code competes for the process cycle, whichever gets first prints first. There are no certain things like who will come first as it is unpredictable.
 
