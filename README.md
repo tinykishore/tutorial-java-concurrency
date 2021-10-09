@@ -6,3 +6,5 @@ This tutorial cover all the basic and intermediate topics of concurrency with Ja
 
 * [Introduction to Thread and Multithreading Programming](res/tuOne.md)
 * [Static fields and methods of Thread class](res/tuTwo.md)
+* [Non-Static fields and methods of Thread class](res/tuThree.md)
+
