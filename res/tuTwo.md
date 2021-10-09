@@ -1,4 +1,4 @@
-### Fields and methods of Thread class
+# Fields and methods of Thread class
 
 Thread class implements the `Runnable` class which has a `run()` method.
 
@@ -78,7 +78,7 @@ Let’s see the usage of the above mention static methods -
 
   Here we can see, the first call of `activeCount()`, it returned 2. Then in the second call, it returned 3. What just happened?
 
-  ![](img/L2Fig1.png)
+  ![](../img/L2Fig1.png)
 
   Java has a garbage collector, we know that. That garbage collector runs another thread behind the scenes. GC (Garbage Collector) doesn't usually run always. In fact, we really don’t know when it will run. It runs as it needs to. So, there are actually 2 threads even though we don’t create a new thread, one is the main itself and the other is GC. However, if the code is run in debug mode, GC won’t be run. At that time it will return 1 and 2, as we previously expected.
 
@@ -289,7 +289,7 @@ Let’s see the usage of the above mention static methods -
   | sleep               | sleep         |
   | sleep               | sleep         |
   | sleep               | sleep         |
-  | ==1==               | ==2==         |
+  | **1**               | **2**         |
   | sleep               | sleep         |
   | sleep               | sleep         |
   | sleep               | sleep         |
@@ -300,5 +300,5 @@ Let’s see the usage of the above mention static methods -
   | sleep               | 0             |
   | Continues Execution | End of thread |
 
-  Here, in the highlighted box, the first and the second thread will execute at the same time, we cannot be able to tell who will come first in this case. It will depend on the scheduler and the OS to decide. Even if we can calculate what will be the next output, it might not match with the compiled output. So, the calculation of thread is not always accurate. Try with 0-10.
+  Here, in the bold box, the first and the second thread will execute at the same time, we cannot be able to tell who will come first in this case. It will depend on the scheduler and the OS to decide. Even if we can calculate what will be the next output, it might not match with the compiled output. So, the calculation of thread is not always accurate. Try with 0-10.
 
