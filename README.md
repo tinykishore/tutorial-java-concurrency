@@ -10,5 +10,6 @@ This tutorial cover all the basic and intermediate topics of concurrency with Ja
 * [Some ways of creating a thread](#res/Four.md)
 * [Thread Grouping](res/Five.md)
 * [Memory Allocation in Threading](res/Six.md)
+* [Synchronization](res/Seven.md)
 * 
 
